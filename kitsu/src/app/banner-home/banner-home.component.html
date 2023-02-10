@@ -1,0 +1,21 @@
+<div class="header-pub">
+
+  <div class="title">
+    <h1>Destaques do dia</h1>
+    <h3>Descubra</h3>
+  </div>
+
+  <div class="">
+    <h3>
+      Visualizar como:
+    </h3>
+    <button (click)="toggleTypeModel=!toggleTypeModel">
+      <span *ngIf="toggleTypeModel" class="material-symbols-outlined">
+        format_list_bulleted
+      </span>
+      <span *ngIf="!toggleTypeModel" class="material-symbols-outlined">
+        grid_view
+      </span>
+    </button>
+  </div>
+</div>
