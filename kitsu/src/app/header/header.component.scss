@@ -1,0 +1,31 @@
+header.state {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #24314d;
+  img {
+    max-width: 20vw;
+  }
+  div.search {
+    display: flex;
+    justify-content: center;
+    input {
+      font-size: 1.4rem;
+      max-width: 40vw;
+      border-color: transparent;
+      border-radius: 10px 0 0 10px;
+    }
+    button {
+      max-width: 10vw;
+      border-color: transparent;
+      border-radius: 0 10px 10px 0;
+    }
+  }
+  div.sales {
+    span {
+      color: #626C80;
+      font-size: 2rem;
+    }
+  }
+}

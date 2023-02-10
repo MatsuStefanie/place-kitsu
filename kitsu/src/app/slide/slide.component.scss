@@ -1,0 +1,23 @@
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  button > span {
+    color: #626c80;
+    font-size: 2rem;
+  }
+
+  div.slider {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 80vw;
+    app-category {
+      margin-right: 1vw;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

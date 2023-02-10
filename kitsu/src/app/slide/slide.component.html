@@ -1,0 +1,18 @@
+<section>
+  <button>
+    <span class="material-symbols-outlined">
+      arrow_back
+    </span>
+  </button>
+  <div class="slider">
+    <app-category
+    [src]="category.src"
+    [name]="category.name"
+    *ngFor="let category of listCategory" />
+  </div>
+  <button>
+    <span class="material-symbols-outlined">
+      arrow_forward
+    </span>
+  </button>
+</section>
